@@ -297,13 +297,15 @@ We created a simple trial comparing lump sum to the strategy of investing in the
 
 ---
 
-Perhaps at this point we could say, *but wait! What we if looked at periods right after 3 months of bull markets, and then...* and I would stop right there. This sort of thinking is a pretty common dangerous path in a similar type of situation in data analysis and machine learning, where it's very easy to build a *perfect* model that is *perfectly overfit* for the limited training dataset it was trained on. As soon as that model is taken away from that training set and applied elsewhere, ie. the real world, it falls apart.
+Perhaps at this point we could say, *but wait! What we if looked at periods right after 3 months of bull markets, and then...* and I would stop and take a moment. This sort of thinking is a pretty common dangerous path in a similar type of situation in data analysis and machine learning, where it's very easy to build a *perfect* model that is *perfectly overfit* for the limited training dataset it was trained on. As soon as that model is taken away from that training set and applied elsewhere, ie. the real world, it falls apart.
 
 What does that mean? [Wikipedia explains the concept well](https://en.wikipedia.org/wiki/Regularization_(mathematics)), but say for example you were trying to fit a polynomial to a set of points like this, with points shown in red.
 
 ![overfit](https://upload.wikimedia.org/wikipedia/commons/f/fd/75hwQ.jpg)
 
 The reality is something like the green curve, but because we try to perfectly fit the data points, our model returns us something like the blue line. Sure, at those points, it's exactly right, but elsewhere, it is completely wrong. Similarly in the case of investing, as we try to more perfectly predict a DCA strategy for the stock market (*for a specific stock even!*), the final model is much more likely to fail spectacularly at some point in the future == *lose all of your money*.
+
+This experiment doesn't guarantee there's not some DCA/alternative strategy that would perform better, but a good way to look at it is we've done a rough fit of our data points, and the experiment shows this DCA strategy (and we can extrapolate reasonably that other similar low-hanging variations of DCA would have similar results, perhaps a good followup experiment is to explore that space) is not superior.
 
 This experiment does give us some useful insights though. **Dollar Cost Averaging is a form of smoothing that reduces the volatility associated with investing date**. Investing at the 'wrong' time can cause a lot of anxiety and wishful thinking, *if only I had waited to buy in* or *if only I sold at the peak*. Using DCA we can alleviate the pressure of worrying that we're investing at a peak right before a looming cliff, at the possibly acceptable cost of reducing the statistical average return of about ~1% (in this very specific example, not generalizable). 
 
