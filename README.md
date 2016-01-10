@@ -3,7 +3,7 @@
 
 * [View Notebook as HTML](http://elucidation.github.io/lumpsum_vs_dca/)
 * [View Notebook on GitHub](https://github.com/Elucidation/lumpsum_vs_dca/blob/master/Lumpsum_vs_DCA.ipynb)
-* [View Notebook on Blog](http://www.samansari.info/2016/01/lump-sum-vs-dollar-cost-averaging-with.html)
+* [View Notebook on Blog](http://www.samansari.info/2016/01/lump-sum-vs-dollar-cost-averaging-dca.html)
 
 ---
 
