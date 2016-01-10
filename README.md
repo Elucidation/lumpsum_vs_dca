@@ -288,7 +288,8 @@ print("Mean difference when dca > lump sum: ${:,.2f}".format(sum(-diff[diff<0]) 
 
 So for every possible day in the last 16 years, a lump sum investment of \$10k would have returned *on average* \$93.88 more than dollar cost averaging, or 0.9388%, a pretty small improvement. When lump sum is better, it returned about \$1k or 10%. However, when dollar cost averaging was better than lump sum, it returned \$1.5k more on average, or about 15%. 
 
-That *is* higher! So maybe that mean's DCA is worth it? Well, unfortunately since DCA was better only about 36.1% of the time, even though it was 5% better*er* than lump sum during those times it still doesn't make up for the fact it was worse overall in the 16 year period. This is why our final average difference was showing a positive \$93.88 in favor of lump sum all together. So despite the fact DCA did do a better job during the crash, it does worse enough elsewhere that in the long term it's the weaker strategy.
+That *is* higher! So maybe that mean's DCA is worth it? Well, unfortunately since DCA was better only about 36.1% of the time, even though it was 5% better*er* than lump sum during those times it still doesn't make up for the fact it was worse overall in the 16 year period. This is why our final average difference was showing a positive \$93.88 in favor of lump sum all together. 
+**So despite the fact DCA did do a better job during the crash, it does worse enough elsewhere that in the long term it's the weaker strategy.**
 
 ## The End?
 **This small experiment explains and validates the claim that Lump sum statistically beats DCA about ~66% of the time.** 
