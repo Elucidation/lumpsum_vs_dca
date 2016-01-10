@@ -1,7 +1,7 @@
 
 # Comparing Lump Sum vs. Dollar Cost Averaging (DCA) investing
-
-*[Direct Link to latest IPython Notebook](https://github.com/Elucidation/lumpsum_vs_dca/blob/master/Lumpsum_vs_DCA.ipynb)*
+* [View Notebook as HTML](http://elucidation.github.io/lumpsum_vs_dca/)
+* [View Notebook on GitHub](https://github.com/Elucidation/lumpsum_vs_dca/blob/master/Lumpsum_vs_DCA.ipynb)
 
 ---
 
