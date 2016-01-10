@@ -195,10 +195,10 @@ I decided to run an experiment validating the claim using IPython Notebook, Pand
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-Experiment">The Experiment<a class="anchor-link" href="#The-Experiment">&#182;</a></h2><p>This statement of <em>being better</em> 66% of the time wasn't completely intuitive to me, so I decided to do a little test. Let's imagine we have <strong>\$10k to invest any time in the last 16 years</strong>, from Feb 22, 2000 to Jan 9, 2016. And we want to choose the time and strategy that would have returned us the most money today. The two strategies I chose are:</p>
+<h2 id="The-Experiment">The Experiment<a class="anchor-link" href="#The-Experiment">&#182;</a></h2><p>This statement of <em>being better</em> 66% of the time wasn't completely intuitive to me, so I decided to do a little test. Let's imagine we have <strong>$10k to invest any time in the last 16 years</strong>, from Feb 22, 2000 to Jan 9, 2016. And we want to choose the time and strategy that would have returned us the most money today. The two strategies I chose are:</p>
 <ol>
-<li>Lump Sum, invest \$10k all at once on a date of choice</li>
-<li>Dollar Cost Average, invest \$10k in 12 equal portions of \$833.33 every 30 days starting from a date of choice, for a total investment period of 360 days. There are alternatives but this is the one I arbitrarily chose.</li>
+<li>Lump Sum, invest $10k all at once on a date of choice</li>
+<li>Dollar Cost Average, invest $10k in 12 equal portions of $833.33 every 30 days starting from a date of choice, for a total investment period of 360 days. There are alternatives but this is the one I arbitrarily chose.</li>
 </ol>
 <p>I then <strong>chose the <a href="https://www.google.com/finance?q=NYSEARCA%3ASPY">SPDR S&amp;P 500 (SPY)</a> as the stock we'll be investing in</strong> because it follows the Standard &amp; Poor 500 index, and is one of the most common ways to measure/invest in the market.</p>
 <blockquote><p>The Standard &amp; Poor's 500 often abbreviated as the S&amp;P 500 (or just "the S&amp;P"). Chosen for market size, liquidity and industry grouping, among other factors. The S&amp;P 500 is designed to be a leading indicator of U.S. equities and is meant to reflect the risk/return characteristics of the large cap universe.</p>
@@ -2766,7 +2766,7 @@ AAAAj0Q4CgAAAAAAAMAjEY4CAAAAAAAA8Ej/H4x+oT2YuuLaAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Cool! Pandas makes it really easy to manipulate data with datetime indices. Looking at the chart we see that if we'd bought right at the bottom of the 2007-2009 crash our \$10k would be worth almost \$30k. If only we had a time machine...</p>
+<p>Cool! Pandas makes it really easy to manipulate data with datetime indices. Looking at the chart we see that if we'd bought right at the bottom of the 2007-2009 crash our $10k would be worth almost $30k. If only we had a time machine...</p>
 
 </div>
 </div>
@@ -2809,7 +2809,7 @@ AAAAj0Q4CgAAAAAAAMAjEY4CAAAAAAAA8Ej/H4x+oT2YuuLaAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>What's nice to note as well is that even if we'd invested at the peak of the bubble in 2007, on Oct 9th, we'd still have come out somewhat positive at \$12,264.83 today. The worst time to invest so far turns out to be more recent, on May 21st of 2015. This is because not only was the market down, but it's so recent we haven't had time for the investment to grow. <em>Something something the best time to plant a tree was yesterday.</em></p>
+<p>What's nice to note as well is that even if we'd invested at the peak of the bubble in 2007, on Oct 9th, we'd still have come out somewhat positive at $12,264.83 today. The worst time to invest so far turns out to be more recent, on May 21st of 2015. This is because not only was the market down, but it's so recent we haven't had time for the investment to grow. <em>Something something the best time to plant a tree was yesterday.</em></p>
 
 </div>
 </div>
@@ -2819,7 +2819,7 @@ AAAAj0Q4CgAAAAAAAMAjEY4CAAAAAAAA8Ej/H4x+oT2YuuLaAAAAAElFTkSuQmCC
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Calculating-Lump-Sum">Calculating Lump Sum<a class="anchor-link" href="#Calculating-Lump-Sum">&#182;</a></h2><p>Now lets do the same experiment, but instead we'll invest the \$10k we have using Dollar Cost Averaging (DCA). For this simple test, I'll assume instead of investing all at once, I'll invest in equal portions every 30 days (roughly a month), over a course of 360 days (roughly a year) total.</p>
+<h2 id="Calculating-Lump-Sum">Calculating Lump Sum<a class="anchor-link" href="#Calculating-Lump-Sum">&#182;</a></h2><p>Now lets do the same experiment, but instead we'll invest the $10k we have using Dollar Cost Averaging (DCA). For this simple test, I'll assume instead of investing all at once, I'll invest in equal portions every 30 days (roughly a month), over a course of 360 days (roughly a year) total.</p>
 <p>So on day 1, I invest <code>$10,000 / 12 ~ $833.33</code>, on day 31, the same <code>$833.33</code>
 and so on for 12 total investments. A special case is investing within the last year, when there isn't time to DCA all of it, as a compromise, I invest what portions I can and keep the rest as cash, since that is how reality works.</p>
 
@@ -4077,7 +4077,7 @@ HAUAAAAAAABQJxGOAgAAAAAAAKiT/j+VA7+a24+x7QAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Interesting! DCA looks way peakier than lump sum, so it must be better right!? Wait, no, the Y axis is different, in fact it's highest high is around \$22k in comparison to the lump sums \$28k. Let's look at the ideal/worst investment dates for DCA, I include the lump sum from before as well.</p>
+<p>Interesting! DCA looks way peakier than lump sum, so it must be better right!? Wait, no, the Y axis is different, in fact it's highest high is around $22k in comparison to the lump sums $28k. Let's look at the ideal/worst investment dates for DCA, I include the lump sum from before as well.</p>
 
 </div>
 </div>
@@ -7327,8 +7327,9 @@ Mean difference when dca &gt; lump sum: $1,551.12
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>So for every possible day in the last 16 years, a lump sum investment of \$10k would have returned *on average* \$93.88 more than dollar cost averaging, or 0.9388%, a pretty small improvement. When lump sum is better, it returned about \$1k or 10%. However, when dollar cost averaging was better than lump sum, it returned \$1.5k more on average, or about 15%.</p>
-<p>That <em>is</em> higher! So maybe that mean's DCA is worth it? Well, unfortunately since DCA was better only about 36.1% of the time, even though it was 5% better<em>er</em> than lump sum during those times it still doesn't make up for the fact it was worse overall in the 16 year period. This is why our final average difference was showing a positive \$93.88 in favor of lump sum all together.</p>
+<p>So for every possible day in the last 16 years, a lump sum investment of $10k would have returned *on average* $93.88 more than dollar cost averaging, or 0.9388%, a pretty small improvement. When lump sum is better, it returned about $1k or 10%. However, when dollar cost averaging was better than lump sum, it returned $1.5k more on average, or about 15%.</p>
+<p>That <em>is</em> higher! So maybe that mean's DCA is worth it? Well, unfortunately since DCA was better only about 36.1% of the time, even though it was 5% better<em>er</em> than lump sum during those times it still doesn't make up for the fact it was worse overall in the 16 year period. This is why our final average difference was showing a positive $93.88 in favor of lump sum all together. 
+<strong>So despite the fact DCA did do a better job during the crash, it does worse enough elsewhere that in the long term it's the weaker strategy.</strong></strong></p>
 
 </div>
 </div>
@@ -7358,7 +7359,7 @@ Mean difference when dca &gt; lump sum: $1,551.12
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Assumptions">Assumptions<a class="anchor-link" href="#Assumptions">&#182;</a></h2><ul>
-<li>We have exactly \$10k to invest at any point in time</li>
+<li>We have exactly $10k to invest at any point in time</li>
 <li>Assume we buy at the price of closing on any day, which is arbitrary but at least as reasonable as choosing the low or high for the day</li>
 <li>We ignore the value of a dollar changing over the years since thats a whole other topic</li>
 <li>Our final investment value is based on the closing price on the last day (Jan 8, 2016 close)</li>
