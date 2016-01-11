@@ -319,6 +319,7 @@ This experiment has temporarily satiated my curiosity on the matter of lump sum 
 * We ignore the value of a dollar changing over the years since thats a whole other topic
 * Our final investment value is based on the closing price on the last day (Jan 8, 2016 close)
 * No commissions yet, which would skew in lump sums favor anyway (1 vs 12 commission fees)
+* Ignoring dividend yields, which again would skew in favor of lump sum (more dividends)
 
 --- 
 
