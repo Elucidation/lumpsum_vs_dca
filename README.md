@@ -132,7 +132,7 @@ print("3 - Investing $10,000 on {} would be worth ${:,.2f} today.".format(lumpsu
 
 What's nice to note as well is that even if we'd invested at the worst possible time, peak of the bubble in 2007, on Oct 9th, we'd still have come out net positive at \$14,593 today. The worst time to invest so far turns out to be more recent, on July 20th of 2015. This is because not only was the market down, but it's so recent we haven't had time for the investment to grow. *Something something the best time to plant a tree was yesterday.*
 
-## Calculating Lump Sum
+## Calculating Dollar Cost Averaging (DCA)
 Now lets do the same experiment, but instead we'll invest the \$10,000 we have using Dollar Cost Averaging (DCA). For this simple test, I'll assume instead of investing all at once, I'll invest in equal portions every 30 days (roughly a month), over a course of 360 days (roughly a year) total. 
 
 So on day 1, I invest `$10,000 / 12 ~ $833.33`, on day 31, the same `$833.33`
